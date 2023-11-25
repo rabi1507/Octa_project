@@ -1,20 +1,20 @@
 const mongoose=require("mongoose");
 const userSchema=new mongoose.Schema({
-    userFirstName:{
+    firstName:{
         type:String,
         required:true,
     },
-    userLastName:{
+    lastName:{
         type:String,
         required:true,
     },
-    bikes:{
-        type:[String],
+    bike:{
+        type:String,
         required:true,
 
     },
-    cars:{
-        type:[String],
+    car:{
+        type:String,
         required:true,
     }
 })
